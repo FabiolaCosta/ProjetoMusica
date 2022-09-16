@@ -2,7 +2,7 @@
     <img src="img/low-res-logo (1).png">
 </h1>
 
-<h1>
+<h1 align="center">
     <img src="img/tela.gif">
 </h1>
 
