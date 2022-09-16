@@ -12,7 +12,7 @@ O projeto **FahSong** é um site com as minhas playlists, essa atividade foi pro
 
 ---
 
-## 🚀Tecnologias Utilizadas
+## ⚒️Tecnologias Utilizadas
 
 O projeto foi desenvolvido utilizando as seguientes tecnologias
 
