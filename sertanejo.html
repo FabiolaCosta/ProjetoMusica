@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Acme & display=swap" rel="stylesheet">
+    <title>Album Sertanejo</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="conteudo-menu">
+            <img src="img/low-res-logo (1).png" alt="logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="album.html">Álbuns</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="conteiner">
+        <h2>Sertanejo</h2>
+        <div class="musicas">
+
+            <div class="play">
+                <img src="" alt="Album" class="capa">
+                <div class="dtl">
+                    <h3>Musica</h3>
+                    <p>Artista</p>
+                </div>
+                <div class="drc">
+                    <div class="barra">
+                        <progress value="0" max="1"></progress>
+                        <div class="ponto"></div>
+                    </div>
+                    <div class="tempo">
+                        <p class="inicio">0:00</p>
+                        <p class="fim">2:50</p>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/icons8-repetir-25.png" class="repetir-faixa" alt="Repetir Faixa" title="Repetir">
+                    <img src="img/icons8-voltar-rápido-50.png" class="anterior" alt="Botão voltar" title="Anterior">
+                    <img src="img/icons8-play-dentro-de-um-círculo-50.png" class="btnPlay" alt="Botão play" title="Play">
+                    <img src="img/icons8-pausa-circular-50.png" class="btnPause" alt="Botão pausar" title="Pausar">
+                    <img src="img/icons8-avanço-rápido-50.png" class="proxima" alt="Botão avançar" title="Próxima">
+                    <img src="img/icons8-lista-24.png" class="lista-faixa" alt="Faixa" title="Lista de música">
+                </div>
+                <audio src="" class="audio"></audio>
+            </div>
+
+            <div class="faixas">
+                <div class="faixa-music">
+                    <span>
+                        <p><strong>Faixas</strong></p>
+                    </span>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicset1()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>1.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/hj.png" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>A Maior Saudade</p>
+                                <p>Henrique & Juliano</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic1" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Tem amores da vida
+                        Que não são pra vida
+                        Nesse caso eu e você
+                        Somos a prova viva
+                        Tem começo que o fim
+                        Nem passa na cabeça
+                        Até que um belo dia
+                        Esse dia chega
+                        Chega chamando pelo nome
+                        Quem chamou de amor
+                        E a boca que falou te amo
+                        Fala que acabou
+                        E o nosso pra sempre
+                        Infelizmente não vingou
+                        Apesar de não te comover
+                        Com o meu sofrimento
+                        Mesmo que sair da sua vida
+                        Seja um livramento
+                        Apesar de não valer o álcool
+                        Que eu 'to bebendo
+                        Mesmo que você ligue o foda-se
+                        'Cê segue sendo
+                        A maior saudade de todos os tempos
+                        A maior saudade de todos os tempos
+                        Tem amores da vida
+                        Que não são pra vida
+                        Nesse caso eu e você
+                        Somos a prova viva
+                        Tem começo que o fim
+                        Nem passa na cabeça
+                        Até que um belo dia
+                        Esse dia chega
+                        Chega chamando pelo nome
+                        Quem chamou de amor
+                        E a boca que falou te amo
+                        Fala que acabou
+                        E o nosso pra sempre
+                        Infelizmente não vingou
+                        Apesar de não te comover
+                        Com o meu sofrimento
+                        Mesmo que sair da sua vida
+                        Seja um livramento
+                        Apesar de não valer o álcool
+                        Que eu 'to bebendo
+                        Mesmo que você ligue o foda-se
+                        'Cê segue sendo
+                        A maior saudade de todos os tempos
+                        A maior saudade de todos os tempos
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicset2()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>2.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/marilia.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Todo Mundo Vai Sofrer</p>
+                                <p>Marília Mendonça</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic2" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica2">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>A garrafa precisa do copo
+                        O copo precisa da mesa
+                        A mesa precisa de mim
+                        E eu preciso da cerveja
+                        Igual eu preciso dele
+                        Na minha vida
+                        Mas quanto mais eu vou atrás
+                        Mais ele pisa
+                        Então já que é assim
+                        Se por ele eu sofro sem pausa
+                        Quem quiser me amar
+                        Também vai sofrer nessa bagaça
+                        Quem eu quero, não me quer
+                        Quem me quer, não vou querer
+                        Ninguém vai sofrer sozinho
+                        Todo mundo vai sofrer
+                        Quem eu quero, não me quer
+                        Quem me quer, não vou querer
+                        Ninguém vai sofrer sozinho
+                        Todo mundo vai sofrer
+                        Todo mundo vai sofrer boa vista
+                        Aqui não!
+                        Igual eu preciso dele
+                        Na minha vida
+                        Mas quanto mais eu vou atrás
+                        Mais ele pisa
+                        Então já que é assim
+                        Se por ele eu sofro sem pausa
+                        Quem quiser me amar
+                        Também vai sofrer nessa bagaça
+                        Quem eu quero, não me quer
+                        Quem me quer, não vou querer
+                        Ninguém vai sofrer sozinho
+                        Todo mundo vai sofrer
+                        Quem eu quero, não me quer
+                        Quem me quer, não vou querer
+                        Ninguém vai sofrer sozinho
+                        Todo mundo vai sofrer
+                        Só vocês assim, vem
+                        Quem eu quero, não me quer
+                        Quem me quer, não vou querer
+                        Ninguém vai sofrer sozinho
+                        Todo mundo vai sofrer
+                        Quem eu quero, não me quer
+                        Quem me quer, não vou querer
+                        Ninguém vai sofrer sozinho
+                        Todo mundo vai sofrer
+                        Ninguém vai sofrer sozinho
+                        Marília ta aqui com vocês
+                        Ninguém vai sofrer sozinho
+                        Todo mundo vai sofrer
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicset3()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>3.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/cheirosa.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Cheirosa</p>
+                                <p>Jorge & Mateus</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic3" atitle="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica3">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Se eu dissesse que 'tá tudo bem
+                        Eu estaria mentido pra vocês
+                        A marca de sol da aliança, no meu dedo mostra
+                        Que ela me deixou tem menos de um mês
+                        Na fronha ainda tem
+                        O cheiro do xampu
+                        Na mente, ainda tem ela usando aquele baby doll azul
+                        Por isso
+                        Essa gelada, eu vou beber
+                        Em homenagem à saudade que eu 'to da minha cheirosa
+                        Que jurou na minha cara que a gente não tem mais volta
+                        Essa gelada, eu vou beber
+                        Em homenagem à saudade que eu 'to da minha cheirosa
+                        Se ela não voltar pra mim, esse mundão pode acabar agora
+                        Alô, cheirosinha!
+                        Bora sanfoneiro!
+                        E, se eu dissesse que tá tudo bem
+                        Eu estaria mentido pra vocês
+                        A marca de sol da aliança, no meu dedo mostra
+                        Que ela me deixou tem menos de um mês
+                        Na fronha ainda tem
+                        O cheiro do xampu
+                        Na mente, ainda tem ela usando aquele baby doll azul
+                        Por isso
+                        Essa gelada, eu vou beber
+                        Em homenagem à saudade que eu 'to da minha cheirosa
+                        Que jurou na minha cara que a gente não tem mais volta
+                        Essa gelada, eu vou beber
+                        Em homenagem à saudade que eu 'to da minha cheirosa
+                        Se ela não voltar pra mim, esse mundão pode acabar agora
+                        Quem sabe canta, vai
+                        Essa gelada, eu vou beber
+                        (Em homenagem à saudade que eu 'to) da minha cheirosa
+                        Que jurou na minha cara que a gente não tem mais volta
+                        Essa gelada, eu vou beber
+                        Em homenagem à saudade que eu 'to da minha cheirosa
+                        Se ela não voltar pra mim, esse mundão pode acabar agora
+                        Muito obrigado
+                        Obrigado
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicset4()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>4.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/zeneto.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Notificação Preferida</p>
+                                <p>Zé Neto & Cristiano</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic4" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica4">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Já doeu
+                        Mas hoje não dói mais
+                        Tanto fiz
+                        Que agora tanto faz
+                        O nosso amor calejou
+                        Apanhou, apanhou que cansou
+                        Na minha cama cê fez tanta falta
+                        Que o meu coração te expulsou
+                        Não tem mais eu e você
+                        Tá facin' de entender
+                        Você me deu aula
+                        De como aprender te esquecer (Assim, ó!)
+                        Foi mas não é mais
+                        A minha notificação preferida
+                        Já foi mas não é mais
+                        A número um da minha vida
+                        Sinto em te dizer, ê-ê
+                        Mas eu já superei você
+                        O nosso amor calejou
+                        Apanhou, apanhou que cansou
+                        Na minha cama cê fez tanta falta
+                        Que o meu coração te expulsou
+                        Não tem mais eu e você
+                        Tá facin' de entender
+                        Você me deu aula
+                        De como aprender a te esquecer
+                        Foi mas não é mais
+                        A minha notificação preferida
+                        Já foi mas não é mais
+                        A número um da minha vida
+                        Sinto em te dizer
+                        Mas eu já superei você
+                        Foi mas não é mais
+                        A minha notificação preferida
+                        Já foi mas não é mais
+                        A número um da minha vida
+                        Sinto em te dizer, ê-ê
+                        Mas eu já superei você
+                        Já doeu
+                        Mas hoje não dói mais
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicset5()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>5.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/arosa.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>A Rosa e o Beija-Flor</p>
+                                <p>Matheus & Kauan</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic5" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica5">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Então vamo simbora assim
+                        Canta junto aí, quero ouvir
+                        Quando você fica ao lado de uma pessoa
+                        E ela mesmo em silêncio lhe faz bem
+                        Quando você fecha os olhos
+                        E no pensamento está fotografado
+                        O rosto desse alguém
+                        E quando estiver num dia triste
+                        Basta um sorriso dela pra você ficar feliz
+                        E quando se sentir realizado
+                        E dizer que encontrou o bem que você sempre quis
+                        E quando chorar de saudades
+                        E quando morrer de ciúmes
+                        E quando sua sensibilidade identifica o perfume
+                        Isso é amor, tá rolando amor
+                        É o encontro de metades, a rosa e o beija-flor
+                        Isso é amor, tá rolando amor
+                        É o encontro de metades, a rosa e o beija-flor
+                        Isso é amor, tá rolando amor
+                        É o encontro de metades, a rosa e o beija-flor
+                        Isso é amor, tá rolando amor
+                        De metades...
+                        É amor, é o encontro de metades
+                        Quando você fica ao lado de uma pessoa
+                        E ela mesmo em silêncio lhe faz bem
+                        Quando você fecha os olhos
+                        No pensamento está fotografado
+                        O rosto desse alguém
+                        Quando estiver num dia triste
+                        Basta um sorriso dela pra você ficar feliz
+                        E quando se sentir realizado
+                        E dizer que encontrou o bem...
+                        (Quem tá de bem com a vida, joga a mãozinha e vem)
+                        E quando chorar de saudades
+                        Quando morrer de ciúmes
+                        E quando morrer de ciúmes
+                        E quando sua sensibilidade identifica o perfume
+                        Isso é amor, tá rolando amor
+                        É o encontro de metades, a rosa e o beija-flor
+                        Isso é amor, tá rolando amor
+                        É o encontro de metades...
+                        Isso é amor, tá rolando amor
+                        É o encontro de metades, a rosa e o beija-flor
+                        Isso é amor, tá rolando amor
+                        É o encontro de metades...
+                        Ô, é amor
+                        É o encontro de metades, a rosa e o beija-flor
+                        Ô, é amor
+                        É o encontro de metades, a rosa e o beija-flor
+                    </p>
+                </div>
+                
+                <div class="music">
+                    <a class="list" onclick="musicset6()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>6.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/gusttavo.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Bloqueado</p>
+                                <p>Gusttavo Lima</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic6" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica6">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>O Embaixador
+                        'To aqui bebendo em um botequinho de esquina, cerveja e pinga
+                        Depois de um dia inteiro de trabalho, já é fim de tarde
+                        Me bateu uma saudade
+                        Me bateu uma saudade
+                        Eu sei que eu não posso ligar
+                        Pra quem já me esqueceu
+                        Coração prometeu nunca mais recair
+                        Só que agora perdeu, 'tá sem dignidade
+                        Me bateu uma saudade
+                        Daquelas que o coração arde
+                        9912-5003
+                        Olha eu recaindo outra vez
+                        Lembrei que 'to bloqueado
+                        É muita raiva misturada com tristeza
+                        Olha eu chorando e dando porrada na mesa
+                        Lembrei que 'to bloqueado
+                        É muita raiva misturada com tristeza
+                        Olha eu chorando e dando porrada na mesa
+                        Derrama, derrama cerveja
+                        Quem 'tá feliz
+                        Eu sei que eu não posso ligar
+                        Pra quem já me esqueceu
+                        Coração prometeu nunca mais recair
+                        Só que agora perdeu, 'tá sem dignidade
+                        Me bateu uma saudade
+                        Daquelas que o coração arde
+                        9912-5003
+                        Olha eu recaindo outra vez
+                        Lembrei que 'to bloqueado
+                        É muita raiva misturada com tristeza
+                        Olha eu chorando e dando porrada na mesa
+                        E lembrei que 'to bloqueado
+                        É muita raiva misturada com tristeza
+                        Olha eu chorando e dando porrada na mesa
+                        Vem, vem, vem Boston
+                        Lembrei que 'to bloqueado
+                        É muita raiva misturada com tristeza
+                        Olha eu chorando e dando porrada na mesa
+                        Derrama, derrama cerveja
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scriptsertanejo.js"></script>
+
+    <footer>
+        <p>Criado por Fabiola Costa &copy; 2022</p>
+    </footer>
+</body>
+</html>

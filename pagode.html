@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Acme & display=swap" rel="stylesheet">
+    <title>Album Pagode</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="conteudo-menu">
+            <img src="img/low-res-logo (1).png" alt="logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="album.html">Álbuns</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="conteiner">
+        <h2>Samba/Pagode</h2>
+        <div class="musicas">
+
+            <div class="play">
+                <img src="" alt="Album" class="capa">
+                <div class="dtl">
+                    <h3>Musica</h3>
+                    <p>Artista</p>
+                </div>
+                <div class="drc">
+                    <div class="barra">
+                        <progress value="0" max="1"></progress>
+                        <div class="ponto"></div>
+                    </div>
+                    <div class="tempo">
+                        <p class="inicio">0:00</p>
+                        <p class="fim">2:50</p>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/icons8-repetir-25.png" class="repetir-faixa" alt="Repetir Faixa" title="Repetir">
+                    <img src="img/icons8-voltar-rápido-50.png" class="anterior" alt="Botão voltar" title="Anterior">
+                    <img src="img/icons8-play-dentro-de-um-círculo-50.png" class="btnPlay" alt="Botão play" title="Play">
+                    <img src="img/icons8-pausa-circular-50.png" class="btnPause" alt="Botão pausar" title="Pausar">
+                    <img src="img/icons8-avanço-rápido-50.png" class="proxima" alt="Botão avançar" title="Próxima">
+                    <img src="img/icons8-lista-24.png" class="lista-faixa" alt="Faixa" title="Lista de música">
+                </div>
+                <audio src="" class="audio"></audio>
+            </div>
+
+            <div class="faixas">
+                <div class="faixa-music">
+                    <span>
+                        <p><strong>Faixas</strong></p>
+                    </span>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicpag1()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>1.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/fundodequintal.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>O Show Tem Que Continuar</p>
+                                <p>Grupo Fundo de Quintal</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic1" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Teu choro já não toca meu bandolim
+                        Diz que minha voz sufoca teu violão
+                        Afrouxaram-se as cordas e assim desafina
+                        Que pobre das rimas da nossa canção
+                        Hoje somos folha morta
+                        Metais em surdina
+                        Fechada a cortina Vazio o salão
+                        Se os duetos não se encontram mais
+                        E os solos perderam a emoção
+                        Se acabou o gás
+                        Pra cantar o mais simples refrão
+                        Se a gente nota
+                        Que uma só nota
+                        Já nos esgota
+                        O show perde a razão
+                        Mas iremos achar o tom
+                        Um acorde com lindo som
+                        E fazer com que fique bom
+                        Outra vez o nosso cantar
+                        E a gente vai ser feliz
+                        Olha nós outra vez no ar
+                        O show tem que continuar
+                        Se os duetos não se encontram mais
+                        E os solos perderam a emoção
+                        Se acabou o gás
+                        Pra cantar o mais simples refrão
+                        Se a gente nota
+                        Que uma só nota Já nos esgota
+                        O show perde a razão
+                        Mas iremos achar o tom
+                        Um acorde com lindo som
+                        E fazer com que fique bom
+                        O utra vez o nosso cantar
+                        E a gente vai ser feliz
+                        Olha nós outra vez no ar
+                        O show tem que continuar
+                        Se os duetos não se encontram mais
+                        E os solos perderam a emoção
+                        Se acabou o gás
+                        Pra cantar o mais simples refrão
+                        Se a gente nota
+                        Que uma só nota Já nos esgota
+                        O show perde a razão
+                        Nós iremos até Paris
+                        Arrasar no Olímpia
+                        O show tem que continuar
+                        Olha o povo pedindo bis
+                        Os ingressos vão se esgotar
+                        O show tem que continuar
+                        Nós iremos até Paris
+                        Arrasar no Olímpia
+                        O show tem que continuar
+                        Olha o povo pedindo bis
+                        Os ingressos vão se esgotar
+                        O show tem que continuar
+                        Todo mundo que hoje diz
+                        Acabou vai se admirar
+                        Nosso amor vai continuar
+                        Lalaia lalaia laia
+                        Lalaia lalaia laia...
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicpag2()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>2.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/pixote.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Brilho de Cristal</p>
+                                <p>Pixote</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic2" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica2">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>É o brilho do seu olhar
+                        Que me leva a loucura
+                        Pode ser minha cura
+                        Essa febre de amar
+                        Faz o que quer de mim
+                        Faz um bem faz um mal
+                        Nosso amor será sempre assim
+                        Um brilho de cristal
+                        
+                        Quem me dera ao menos uma vez poder te abraçar e te beijar
+                        Bem pertinho desvendar o brilho desse olhar
+                        Que ilumina minha vida
+                        Triste vida sem você não sou ninguém
+                        Vem cá me dá
+                        Me dá você meu bem
+                        
+                        Porque ando tão sozinho
+                        Precisando de carinho
+                        Juro por Deus, jamais amei assim
+                        É desejo demais
+                        Vem pra ser minha paz
+                        Abre o seu coração
+                        Vem pra mim
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicpag3()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>3.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/pericles.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Até que Durou</p>
+                                <p>Péricles</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic3" atitle="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica3">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Tentei fazer valer a pena
+                        Passei por cima dos problemas
+                        Achei que eu era o bastante
+                        Mas não fui pra você
+                        Tentei ser um cara perfeito
+                        Eu fiz as coisas do seu jeito
+                        Queria ser mais importante
+                        Mas não fui pra você
+                        Até que durou, me diz o porquê
+                        Perdeu tanto tempo aqui
+                        Te faço um favor, melhor eu sumir
+                        Fui mais um nas suas mãos
+                        Não sei se por carência ou falta de opção
+                        Só sei que eu senti amor
+                        Que pena, só eu senti amor
+                        O que faço com os planos dos próximos anos
+                        Juro que não sei
+                        Só sei que eu senti amor
+                        Que pena, só eu senti amor
+                        Só eu senti amor
+                        Tentei ser um cara perfeito
+                        Eu fiz as coisas do seu jeito
+                        Queria ser mais importante
+                        Mas não fui pra você
+                        Até que durou, me diz o porquê
+                        (Perdeu tanto tempo aqui)
+                        Te faço um favor, melhor eu sumir
+                        Fui mais um nas suas mãos
+                        Não sei se por carência ou falta de opção
+                        Só sei que eu senti amor
+                        Que pena, só eu senti amor
+                        O que faço com os planos dos próximos anos
+                        Juro que não sei
+                        Só sei que eu senti amor
+                        Que pena, só eu senti amor
+                        Fui mais um nas suas mãos
+                        Não sei se por carência ou falta de opção
+                        Só sei que eu senti amor
+                        Que pena, só eu senti amor
+                        O que faço com os planos dos próximos anos
+                        Juro que não sei
+                        Só sei que eu senti amor
+                        Que pena, só eu senti amor
+                        Só eu (Só eu) Senti amor
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicpag4()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>4.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/ferrugem.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>É Natural</p>
+                                <p>Ferrugem</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic4" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica4">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Eu sei que vou sofrer um tempo é natural
+                        Não é assim que some
+                        Quem dera eu acordasse amanhã
+                        Sem lembrar de nada, nem seu nome
+                        Difícil vai ser te reencontrar
+                        E fingir que estou bem, que não me abalei
+                        E agir naturalmente pra você não ver
+                        Que dentro dos meus olhos reflete você
+                        Será que eu vou conseguir
+                        Sorrir com o coração chorando
+                        E se você me abraçar
+                        Eu vou fingir que tou sonhando
+                        Por um segundo acreditar
+                        Que a gente ainda tá namorando
+                        Toda vez que eu tento te esquecer
+                        Me lembro mais
+                        E tudo que eu faço tem um pouco de você
+                        Eu tento te expulsar da mente
+                        Mas você não sai
+                        Por isso eu não me sinto preparado pra te ver
+                        Eu sei que vou sofrer um tempo é natural
+                        Não é assim que some
+                        Quem dera eu acordasse amanhã
+                        Sem lembrar de nada, nem seu nome
+                        Difícil vai ser te reencontrar
+                        E fingir que estou bem, que não me abalei
+                        E agir naturalmente pra você não ver
+                        Que dentro dos meus olhos reflete você
+                        Será que eu vou conseguir
+                        Sorrir com o coração chorando
+                        E se você me abraçar
+                        Eu vou fingir que tou sonhando
+                        Por um segundo acreditar
+                        Que a gente ainda esta namorando
+                        Toda vez que eu tento te esquecer
+                        Me lembro mais
+                        E tudo que eu faço tem um pouco de você
+                        Eu tento te expulsar da mente
+                        Mas você não sai
+                        Por isso eu não me sinto preparado pra te ver
+                        Toda vez que eu tento te esquecer
+                        Me lembro mais
+                        E tudo que eu faço tem um pouco de você
+                        Eu tento te expulsar da mente
+                        Mas você não sai
+                        Por isso eu não me sinto preparado pra te ver
+                        Pra te ver
+                        Ferrugem
+                        Senhoras e senhores, Bruno Cardoso
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicpag5()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>5.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/sorriso.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Sinais</p>
+                                <p>Sorriso Maroto</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic5" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica5">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Se é pra viver um grande amor
+                        Sei que é preciso cultivar
+                        Hoje aprendi com o que passou
+                        Que cada detalhe vai somar
+                        Fui desatento, meu amor
+                        Quem ama tem que reparar
+                        Ver em você o que mudou
+                        E se é preciso eu mudar
+                        Ouvir seu silêncio de mulher
+                        Ver os sinais que você dá
+                        Discretamente bate o pé
+                        Mexe os cabelos sem parar
+                        Pintou as unhas de café
+                        Vive olhando pro nada
+                        Perdão, amor, se levei tempo demais
+                        Deixei uma porção de coisas pra trás
+                        Errei em só olhar pra mim
+                        Meu bem, nunca te vi assim
+                        Nem só de amor se vive uma relação
+                        Cada detalhe que perdi foi um grão
+                        E quantos grãos deixei cair
+                        Será que já chegou ao fim
+                        Pior de tudo é perceber
+                        Que você vinha dando sinais e eu não vi
+                        Fui desatento, meu amor
+                        Quem ama tem que reparar
+                        Ver em você o que mudou
+                        E se é preciso eu mudar
+                        Ouvir seu silêncio de mulher
+                        Ver os sinais que você dá
+                        Discretamente bate o pé
+                        Mexe os cabelos sem parar
+                        Pintou as unhas de café
+                        Vive olhando pro nada
+                        Perdão, amor, se levei tempo demais
+                        Deixei uma porção de coisas pra trás
+                        Errei em só olhar pra mim
+                        Meu bem, nunca te vi assim
+                        Nem só de amor se vive uma relação
+                        Cada detalhe que perdi foi um grão
+                        E quantos grãos deixei cair
+                        Será que já chegou ao fim
+                        Pior de tudo é perceber
+                        Que você vinha dando sinais e eu não vi êh
+                        Perdão, amor, se levei tempo demais (perdão amor)
+                        Deixei uma porção de coisas pra trás
+                        Errei em só olhar pra mim (eu errei, eu errei)
+                        Meu bem, nunca te vi assim
+                        Nem só de amor se vive uma relação
+                        Cada detalhe que perdi foi um grão
+                        E quantos grãos deixei cair
+                        Será que já chegou ao fim
+                        Pior de tudo é perceber
+                        Que você vinha dando sinais e eu não vi
+                    </p>
+                </div>
+                
+                <div class="music">
+                    <a class="list" onclick="musicpag6()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>6.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/arlindocruz.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Meu Lugar</p>
+                                <p>Arlindo Cruz</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic6" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica6">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> O meu lugar é caminho de Ogum e Iansã
+                        Lá tem samba até de manhã
+                        Uma ginga em cada andar
+                        O meu lugar
+                        É cercado de luta e suor
+                        Esperança num mundo melhor
+                        E cerveja pra comemorar
+                        O meu lugar
+                        Tem seus mitos e seres de luz
+                        É bem perto de Osvaldo Cruz
+                        Cascadura, Vaz Lobo e Irajá
+                        O meu lugar
+                        É sorriso é paz e prazer
+                        O seu nome é doce dizer
+                        Madureira, lá laiá
+                        Madureira, lá laiá
+                        O meu lugar é caminho de Ogum e Iansã
+                        Lá tem samba até de manhã
+                        Uma ginga em cada andar
+                        cada andar
+                        O meu lugar
+                        É cercado de luta e suor
+                        Esperança num mundo melhor
+                        E cerveja pra comemorar
+                        O meu lugar
+                        Tem seus mitos e seres de luz
+                        É bem perto de Osvaldo Cruz
+                        Cascadura, Vaz Lobo e Irajá
+                        O meu lugar
+                        É sorriso é paz e prazer
+                        O seu nome é doce dizer
+                        Madureira, lá laiá
+                        Madureira, lá laiá
+                        Ah lugar
+                        A saudade me faz relembrar
+                        Os amores que eu tive por lá
+                        É difícil esquecer
+                        Doce lugar
+                        Que é eterno no meu coração
+                        Que aos poetas traz inspiração
+                        Pra cantar e escrever
+                        Ai meu lugar
+                        Quem não viu Tia Eulália dançar
+                        Vó Maria o terreiro benzer
+                        E ainda tem jongo à luz do luar
+                        Ai que lugar
+                        Tem mil coisas pra gente dizer
+                        O difícil é saber terminar
+                        Madureira, lá laiá
+                        Madureira, lá laiá
+                        Madureira
+                        Em cada esquina um pagode num bar
+                        Em Madureira
+                        Império e Portela também são de lá
+                        Em Madureira
+                        E no Mercadão você pode comprar
+                        Por uma pechincha você vai levar
+                        Um dengo, um sonho pra quem quer sonhar
+                        Em Madureira
+                        E quem se habilita até pode chegar
+                        Tem jogo de lona, caipira e bilhar
+                        Buraco, sueca pro tempo passar
+                        Em Madureira
+                        E uma fezinha até posso fazer
+                        No grupo dezena, centena e milhar
+                        Pelos sete lados eu vou te cercar
+                        Em Madureira
+                        E lalalaiala laia la la ia
+                        E lalalaiala laia la la ia
+                        E lalalaiala laia la la ia
+                        Em Madureira
+                        E lalalaiala laia la la ia
+                        E lalalaiala laia la la ia
+                        E lalalaiala laia la la ia
+                        Em Madureira, lá laiá
+                        Em Madureira
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scriptpagode.js"></script>
+
+    <footer>
+        <p>Criado por Fabiola Costa &copy; 2022</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https: //fonts.googleapis.com/css2? family= Acme & display=swap" rel="stylesheet">
+    <title>Album Eletrônica</title>
+</head>
+<body>
+    <nav class="menu">
+        <div class="conteudo-menu">
+            <img src="img/low-res-logo (1).png" alt="logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="album.html">Álbuns</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="conteiner">
+        <h2>Eletrônica</h2>
+        <div class="musicas">
+
+            <div class="play">
+                <img src="" alt="Album" class="capa">
+                <div class="dtl">
+                    <h3>Musica</h3>
+                    <p>Artista</p>
+                </div>
+                <div class="drc">
+                    <div class="barra">
+                        <progress value="0" max="1"></progress>
+                        <div class="ponto"></div>
+                    </div>
+                    <div class="tempo">
+                        <p class="inicio">0:00</p>
+                        <p class="fim">2:50</p>
+                    </div>
+                </div>
+                <div class="player">
+                    <img src="img/icons8-repetir-25.png" class="repetir-faixa" alt="Repetir Faixa" title="Repetir">
+                    <img src="img/icons8-voltar-rápido-50.png" class="anterior" alt="Botão voltar" title="Anterior">
+                    <img src="img/icons8-play-dentro-de-um-círculo-50.png" class="btnPlay" alt="Botão play" title="Play">
+                    <img src="img/icons8-pausa-circular-50.png" class="btnPause" alt="Botão pausar" title="Pausar">
+                    <img src="img/icons8-avanço-rápido-50.png" class="proxima" alt="Botão avançar" title="Próxima">
+                    <img src="img/icons8-lista-24.png" class="lista-faixa" alt="Faixa" title="Lista de música">
+                </div>
+                <audio src="" class="audio"></audio>
+            </div>
+
+            <div class="faixas">
+                <div class="faixa-music">
+                    <span>
+                        <p><strong>Faixas</strong></p>
+                    </span>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicelt1()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>1.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/meduza.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Piece Of Your Heart</p>
+                                <p>Meduza, Goodboys</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic1" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Show me a piece of your heart, a piece of your love
+                        I'm calling you up to getting down, down, down
+                        The way that we touch is never enough
+                        I'm turning you up to getting down, down
+                        Show me a piece of your heart, a piece of your love
+                        I'm calling you up to getting down, down, down
+                        The way that we touch is never enough
+                        I'm turning you up to getting down, down, down
+                        What? Sorry, just quickly
+                        What if it's da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Down, down, down
+                        Uh, da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Da, da, da
+                        Uh, da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Down, down, down
+                        Show me a piece of you, show me a part of you
+                        I'll be what you want
+                        And if it's physical, keep it subliminal
+                        Show me what you want
+                        Show me a piece of you, show me a part of you
+                        I'll be what you want
+                        And if it's physical, keep it subliminal
+                        Show me what you want
+                        Show me a piece of your heart, a piece of your love
+                        I'm calling you up to getting down, down, down
+                        The way that we touch is never enough
+                        I'm turning you up to getting down, down, down
+                        Da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Down, down, down
+                        Uh, da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Da, da, da
+                        Uh, da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Da, da, da, uh, uh
+                        Down, down, down
+                        Show me a piece of you, show me a part of you
+                        I'll be what you want
+                        And if it's physical, keep it subliminal
+                        Show me what you want
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicelt2()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>2.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/davidguetta.png" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Play Hard</p>
+                                <p>David Guetta</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic2" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica2">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Hey, said a hustler's work is never through
+                        We makin' it 'cause we makin' moves
+                        The only thing we know how to do
+                        Said it's the only thing we know how to do
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job, ayy
+                        Come on, baby, and drop it (okay)
+                        Scrub that floor and just mop it (okay)
+                        Show these gangsters how you pop lock it (okay)
+                        Don't care what you got in your pocket (okay)
+                        I peep the way that you rockin'
+                        Flip that thang-thang, girl stop it
+                        Wanna just bang-bang and pop it
+                        While the club crowded, just watch you work it out
+                        Got a gang of cash and it's goin' all on the bar (now work it out)
+                        And it's going fast 'cause I feel like a superstar (now work it out)
+                        And you may not have it, I might just broke the law (now work it out)
+                        It's your turn to grab it, now make this whole thing yours (now work it out)
+                        Hey, said a hustler's work is never through
+                        We makin' it 'cause we makin' moves
+                        The only thing we know how to do
+                        Said it's the only thing we know how to do
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job, ayy
+                        Yes, I'm fresh to death, lookin' plush (okay)
+                        Ladies can't get enough (okay)
+                        Got my fitness, looking buff (okay)
+                        And all my people with me, I trust (okay)
+                        Holdin' down for my city
+                        If they askin' you, I'm not guilty
+                        Only thing that I'm guilty of is making you rock with me, work it out
+                        Got a gang of cash and it's goin' all on the bar (now work it out)
+                        And it's going fast 'cause I feel like a superstar (now work it out)
+                        And you may not have it, I might just broke the law (now work it out)
+                        It's your turn to grab it, now make this whole thing yours (now work it out)
+                        Hey, said a hustler's work is never through
+                        We makin' it 'cause we makin' moves
+                        The only thing we know how to do
+                        Said it's the only thing we know how to do
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job, ayy
+                        Hey, said a hustler's work is never through
+                        We makin' it 'cause we makin' moves
+                        The only thing we know how to do
+                        Said it's the only thing we know how to do
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job
+                        Work hard, play hard
+                        Work hard, play hard
+                        We work hard, play hard
+                        Keep partyin' like it's your job, ayy
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicelt3()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>3.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/alok.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Hear Me Now</p>
+                                <p>Alok, Bruno Martin feat. Zeeba</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic3" atitle="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica3">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>If you get to hear me now
+                        I know you'll get stronger
+                        When you get older
+                        Just don't shrug your shoulders
+                        When you get older
+                        Things aren't easy
+                        So just you believe me now
+                        If you don't keep it cool now
+                        You'll never make a sound
+                        All the lights will guide the way
+                        If you get to hear me now
+                        All the fears will fade away
+                        If you get to hear me now
+                        If you get to hear me now
+                        If you get to hear me now
+                        Leave excuses aside
+                        Speak out your mind
+                        Don't let in slide
+                        You're not always right
+                        Things aren't easy
+                        So just you believe me now
+                        Don't learn the hard way
+                        Just let me show you how
+                        All the lights will guide the way
+                        If you get to hear me now
+                        All the fears will fade away
+                        If you get to hear me now
+                        If you get to hear me now
+                        If you get to hear me now
+                        If you get to hear me now
+                        If you get to hear me now
+                        If you get to hear me now
+                        If you get to hear me now
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicelt4()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>4.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/calvinharris.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Outside</p>
+                                <p>Calvin Harris ft. Ellie Goulding</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic4" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica4">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Look at what you've done
+                        Stand still, fallin' away from me
+                        When it takes so long
+                        Fire's out, what do you want to be?
+                        I'm holdin' on
+                        Myself was never enough for me
+                        Gotta be so strong
+                        There's a power in what you do
+                        Now, every other day I'll be watching you
+                        Oh oh
+                        Oh oh
+                        Show you what it feels like
+                        Now I'm on the outside
+                        Oh oh
+                        We did everything right, now I'm on the outside
+                        I'll show you what it feels like
+                        Now I'm on the outside
+                        I'll show you what it feels like
+                        Though you give me no reason
+                        For me to stay close to you
+                        Tell me what lovers do
+                        How are we still breathing?
+                        It's never for us to choose
+                        I'll be the strength in you
+                        I'm holdin' on
+                        Myself was never enough for me
+                        Gotta be so strong
+                        There's a power in what you do
+                        Now, every other day I'll be watching you
+                        Oh oh
+                        Oh oh
+                        Show you what it feels like
+                        Now I'm on the outside
+                        Oh oh
+                        We did everything right, now I'm on the outside
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musicelt5()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>5.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/tiesto.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>The Business</p>
+                                <p>Tiësto</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic5" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica5">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Let's get down, let's get down to business
+                        Give you one more night, one more night to get this
+                        We've had a million, million nights just like this
+                        So let's get down, let's get down to business
+                        Mama please don't worry 'bout me
+                        'Cause I'm about to let my heart speak
+                        My friends keep telling me to leave this
+                        So let's get down, let's get down to business
+                        Let's get down, let's get down to business
+                        Give you one more night, one more night to get this
+                        We've had a million, million nights just like this
+                        So let's get down, let's get down to business
+                        Let's get down, let's get down to business
+                        Give you one more night, one more night to get this
+                        We've had a million, million nights just like this
+                        So let's get down, let's get down to business
+                        Back and forth, back and forth with the bullshit
+                        I know I said it before, I don't mean it
+                        It's been a while since I had your attention
+                        So it might hurt to hear this
+                        Dreams we have don't ever fall away
+                        We can't leave 'em if we stay the same
+                        And I can't do this for another day
+                        So let's get down, let's get down to business
+                        Let's get down, let's get down to business
+                        Give you one more night, one more night to get this
+                        We've had a million, million nights just like this
+                        So let's get down, let's get down to business
+                        Let's get down, let's get down to business (let's get down)
+                        Give you one more night, one more night to get this (get this)
+                        We've had a million, million nights just like this
+                        So let's get down, let's get down to business
+                        Ooh, yeah, yeah
+                    </p>
+                </div>
+                
+                <div class="music">
+                    <a class="list" onclick="musicelt6()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>6.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/avicii.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>The Nights</p>
+                                <p>Avicii</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic6" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica6">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Once upon a younger year
+                        When all our shadows disappeared
+                        The animals inside came out to play
+                        Went face to face with all our fears
+                        Learned our lessons through the tears
+                        Made memories we knew would never fade
+                        One day, my father, he told me, "Son, don't let it slip away"
+                        He took me in his arms, I heard him say
+                        "When you get older your wild heart will live for younger days
+                        Think of me if ever you're afraid"
+                        He said, "One day, you'll leave this world behind
+                        So live a life you will remember"
+                        My father told me when I was just a child
+                        "These are the nights that never die"
+                        My father told me
+                        "When thunderclouds start pouring down
+                        Light a fire they can't put out
+                        Carve your name into those shining stars"
+                        He said, "Go venture far beyond the shores
+                        Don't forsake this life of yours
+                        I'll guide you home no matter where you are"
+                        One day, my father, he told me, "Son, don't let it slip away"
+                        When I was just a kid, I heard him say
+                        "When you get older your wild heart will live for younger days
+                        Think of me if ever you're afraid"
+                        He said, "One day, you'll leave this world behind
+                        So live a life you will remember"
+                        My father told me when I was just a child
+                        "These are the nights that never die"
+                        My father told me
+                        "These are the nights that never die"
+                        My father told me
+                        My father told me
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/scripteletronica.js"></script>
+    
+    <footer>
+        <p>Criado por Fabiola Costa &copy; 2022</p>
+    </footer>
+</body>
+</html>

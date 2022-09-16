@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Favoritas</title>
+</head>
+
+<body>
+    <nav class="menu">
+        <div class="conteudo-menu">
+            <img src="img/low-res-logo (1).png" alt="logo" class="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="playlist.html">Playlist</a></li>
+                <li><a href="album.html">Álbuns</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="conteiner">
+        <h2>#Favoritas</h2>
+        <div class="wrapper">
+            <div class="tocandoAgora"></div>
+            <img src="" alt="Album" class="capa">
+            <div class="descricao">
+                <h3>Musica</h3>
+                <p>Artista</p>
+            </div>
+
+            <div class="duracao">
+                <div class="barra">
+                    <progress value="0" max="1"></progress>
+                    <div class="ponto"></div>
+                </div>
+                <div class="tempo">
+                    <p class="inicio">0:00</p>
+                    <p class="fim">2:50</p>
+                </div>
+            </div>
+
+            <div class="player">
+                <img src="img/icons8-repetir-25.png" class="repetir-faixa" alt="Repetir Faixa" title="Repetir">
+                <img src="img/icons8-voltar-rápido-50.png" class="anterior" alt="Botão voltar" title="Anterior">
+                <img src="img/icons8-play-dentro-de-um-círculo-50.png" class="btnPlay" alt="Botão play" title="Play">
+                <img src="img/icons8-pausa-circular-50.png" class="btnPause" alt="Botão pausar" title="Pausar">
+                <img src="img/icons8-avanço-rápido-50.png" class="proxima" alt="Botão avançar" title="Próxima">
+                <img src="img/icons8-lista-24.png" class="lista-faixa" alt="Faixa" title="Lista de música">
+            </div>
+            <audio src=""></audio>
+        </div>
+        
+        <div class="musicasTop">
+            <div class="faixas">
+                <div class="faixa-music">
+                    <span>
+                        <p><strong>Faixas</strong></p>
+                    </span>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop1()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>1.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/sweater.png" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Sweater Weather</p>
+                                <p>The Neighbourhood</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic1" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>And all I am is a man
+                        I want the world in my hands
+                        I hate the beach
+                        But I stand in California with my toes in the sand
+                        Use the sleeves of my sweater
+                        Let's have an adventure
+                        Head in the clouds but my gravity centered
+                        Touch my neck and I'll touch yours
+                        You in those little high waisted shorts, oh
+                        Oh, she knows what I think about
+                        And what I think about
+                        One love, two mouths
+                        One love, one house
+                        No shirt, no blouse
+                        Just us, you find out
+                        Nothing that I wouldn't wanna tell you about, no
+                        'Cause it's too cold
+                        For you here
+                        And now, so let me hold
+                        Both your hands in the holes of my sweater
+                        And if I may just take your breath away
+                        I don't mind if there's not much to say
+                        Sometimes the silence guides a mind
+                        To move to a place so far away
+                        The goosebumps start to raise
+                        The minute that my left hand meets your waist
+                        And then I watch your face
+                        Put my finger on your tongue 'cause you love to taste, yeah
+                        These hearts adore, everyone the other beats hardest for
+                        Inside this place is warm
+                        Outside it starts to pour
+                        Coming down
+                        One love, two mouths
+                        One love, one house
+                        No shirt, no blouse
+                        Just us, you find out
+                        Nothing that I wouldn't wanna tell you about, no, no, no
+                        'Cause it's too cold
+                        For you here
+                        And now, so let me hold
+                        Both your hands in the holes of my sweater
+                        'Cause it's too cold
+                        For you here
+                        And now, so let me hold
+                        Both your hands in the holes of my sweater
+                        Whoa, whoa, whoa
+                        Whoa, whoa, whoa
+                        Whoa, whoa, whoa, whoa
+                        Whoa, whoa
+                        Whoa, whoa, whoa, whoa
+                        Whoa, whoa
+                        'Cause it's too cold
+                        For you here
+                        And now, so let me hold
+                        Both your hands in the holes of my sweater
+                        It's too cold
+                        For you here
+                        And now, let me hold
+                        Both your hands in the holes of my sweater
+                        And it's too cold, it's too cold
+                        The hands of my sweater
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop2()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>2.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/dontyouworrychild.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Dont you worry child</p>
+                                <p>Swedish House Mafia</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic2" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica2">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> … There was a time
+                        I used to look into my father's eyes
+                        In a happy home
+                        I was a king, I had a golden throne
+                        Those days are gone
+                        Now they're memories on the wall
+                        I hear the songs from the places where I was born
+                        … Up on a hill across the blue lake
+                        That's where I had my first heartbreak
+                        I still remember how it all changed
+                        My father said
+                        … Don't you worry, don't you worry, child
+                        See heaven's got a plan for you
+                        Don't you worry, don't you worry now
+                        Yeah
+                        … Don't you worry, don't you worry now
+                        Yeah
+                        … Don't you worry, don't you worry now
+                        Yeah
+                        … There was a time
+                        I met a girl of a different kind
+                        We ruled the world
+                        I thought I'd never lose her out of sight
+                        We were so young
+                        I think of her now and then
+                        I still hear the songs reminding me of a friend
+                        … Up on a hill across the blue lake
+                        That's where I had my first heartbreak
+                        I still remember how it all changed
+                        My father said
+                        … Don't you worry, don't you worry, child
+                        See heaven's got a plan for you
+                        Don't you worry, don't you worry now
+                        Yeah
+                        … Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        See heaven's got a plan for you
+                        See heaven's got a plan for you
+                        See heaven's got a plan for you
+                        … Don't you worry, don't you worry, child
+                        See heaven's got a plan for you
+                        Don't you worry, don't you worry now
+                        Yeah
+                        … Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        Oh-oh-oh-oh-oh-oh-oh
+                        Yeah
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop3()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>3.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/taescrito.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Tá Escrito</p>
+                                <p>Grupo Revelação</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic3" atitle="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica3">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Quem cultiva a semente do amor
+                        Segue em frente e não se apavora
+                        Se na vida encontrar dissabor
+                        Vai saber esperar a sua hora
+                        Quem cultiva a semente do amor
+                        Segue em frente e não se apavora
+                        Se na vida encontrar dissabor
+                        Vai saber esperar a sua hora
+                        Às vezes a felicidade demora a chegar
+                        Aí é que a gente não pode deixar de sonhar
+                        Guerreiro não foge da luta e não pode correr
+                        Ninguém vai poder atrasar quem nasceu pra vencer
+                        É dia de sol, mas o tempo pode fechar
+                        A chuva só vem quando tem que molhar
+                        Na vida é preciso aprender
+                        Se colhe o bem que plantar
+                        É Deus quem aponta a estrela que tem que brilhar
+                        Erga essa cabeça, mete o pé e vai na fé
+                        Manda essa tristeza embora
+                        Basta acreditar que um novo dia vai raiar
+                        Sua hora vai chegar
+                        erga essa cabeça, mete o pé e vai na fé
+                        Manda essa tristeza embora (manda essa tristeza embora)
+                        Basta acreditar que um novo dia vai raiar
+                        Sua hora vai chegar
+                        Quem cultiva a semente do amor
+                        Segue em frente e não se apavora
+                        Se na vida encontrar dissabor
+                        Vai saber esperar a sua hora
+                        Quem cultiva a semente do amor
+                        Segue em frente e não se apavora
+                        Se na vida encontrar dissabor
+                        Vai saber esperar a sua hora
+                        Às vezes a felicidade demora a chegar
+                        Aí é que a gente não pode deixar de sonhar
+                        Guerreiro não foge da luta e não pode correr
+                        Ninguém vai poder atrasar quem nasceu pra vencer
+                        É dia de sol, mas o tempo pode fechar
+                        Chuva só vem quando tem que molhar
+                        Na vida é preciso aprender
+                        Se colhe o bem que plantar
+                        É Deus quem aponta a estrela que tem que brilhar
+                        Erga essa cabeça, mete o pé e vai na fé
+                        Manda essa tristeza embora
+                        Basta acreditar que um novo dia vai raiar
+                        Sua hora vai chegar
+                        erga essa cabeça, mete o pé e vai na fé
+                        Manda essa tristeza embora
+                        Basta acreditar que um novo dia vai raiar
+                        Sua hora vai chegar
+                        Erga essa cabeça, mete o pé e vai na fé
+                        Manda essa tristeza embora
+                        Basta acreditar que um novo dia vai raiar
+                        Sua hora vai chegar
+                        erga essa cabeça, mete o pé e vai na fé
+                        Manda essa tristeza embora (manda essa tristeza embora)
+                        Basta acreditar que um novo dia vai raiar
+                        Sua hora vai chegar
+                        erga essa cabeça, mete o pé e vai na fé
+                        Manda essa tristeza embora (manda essa tristeza embora)
+                        Basta acreditar que um novo dia vai raiar
+                        Sua hora vai chegar
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop4()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>4.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/numanice.png" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Lud Session feat. Gloria Groove</p>
+                                <p>Ludmilla</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic4" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica4">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Ah, é melhor deixar o amor
+                        Em modo avião
+                        Dá o papo, Lud
+                        Dá pra perceber
+                        Que os nossos planos não tem nada a ver
+                        Melhor você parar de sonhar, ai-ai
+                        Eu não sou assim
+                        Do tipo que quer um final feliz
+                        Melhor você parar pra pensar
+                        Eu sei que tudo foi bom demais
+                        Que você é um bom rapaz
+                        Mas eu não quero me envolver
+                        Comprometer o meu jeito de viver
+                        Não leva a mal, mas eu sou assim
+                        Brincar de amor não é pra mim
+                        Vai ser melhor pra você
+                        Você vai ver (vai ver)
+                        Se você quiser, chega mais (chega mais)
+                        Daquele jeito que a gente faz (a gente faz)
+                        A gente pode curtir demais (chega mais)
+                        E amanhã acordar em paz
+                        Sem culpa, sem dor, sem pressão
+                        Deixa o amor em modo avião
+                        Sem culpa, sem dor, sem pressão
+                        Deixa o amor em modo avião
+                        Ludmilla
+                        Gloria Groove<br>
+                        [..]
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop5()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>5.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/thescientist.png" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>The Scientist</p>
+                                <p>Coldplay</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic5" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica5">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Come up to meet you, tell you I'm sorry
+                        You don't know how lovely you are
+                        I had to find you, tell you I need you
+                        Tell you I set you apart
+                        Tell me your secrets and ask me your questions
+                        Oh, let's go back to the start
+                        Running in circles, coming up tails
+                        Heads on a science apart
+                        Nobody said it was easy
+                        It's such a shame for us to part
+                        Nobody said it was easy
+                        No one ever said it would be this hard
+                        Oh, take me back to the start
+                        I was just guessing at numbers and figures
+                        Pulling the puzzles apart
+                        Questions of science, science and progress
+                        Do not speak as loud as my heart
+                        But tell me you love me, come back and haunt me
+                        Oh and I rush to the start
+                        Running in circles, chasing our tails
+                        Coming back as we are
+                        Nobody said it was easy
+                        Oh, it's such a shame for us to part
+                        Nobody said it was easy
+                        No one ever said it would be so hard
+                        I'm going back to the start
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop6()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>6.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/Im-an-Albatraoz.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Im an Albatraoz</p>
+                                <p>Aron Chupa</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic6" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica6">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Mesdames et Messieurs
+                        S'il vous plaît
+                        Soyez prêts pour AronChupa et Albatraoz
+                        C'est parti
+                        Let me tell you all a story
+                        About a mouse named Lorry
+                        Yeah, Lorry was a mouse in a big brown house
+                        She called herself "The Hoe"
+                        With the money, money flow
+                        But fuck that little mouse
+                        'Cause I'm an Albatraoz (Whoo!)
+                        I'm an Albatraoz
+                        So what?
+                        I'm an Albatraoz
+                        Yeah, Lorry said she was a mouse
+                        Smoked that cheesn' like a baoz
+                        Monilie, money, money hoe
+                        Chinka, chinka, chingka-flow
+                        Lorry was a witch
+                        Yeah, a sneaky little bitch
+                        So fuck that little mouse
+                        'Cause I'm an Albatraoz (Whoo!)
+                        I'm, I'm
+                        I'm an Albatraoz
+                        So what?
+                        I'm, I'm
+                        I'm, I'm, I'm, I'm
+                        I'm, I'm, I'm
+                        I'm, I'm, I'm
+                        Mesdames et Messieurs
+                        S'il vous plaît
+                        Soyez prêts pour AronChupa et Albatraoz
+                        C'est parti
+                        I got it
+                        Ooh, I see ya
+                        Ooh, I see ya
+                        Ooh, I see ya
+                        I'm
+                        I'm an Albatraoz
+                        So what?
+                        I'm
+                        I'm, I'm, I'm, I'm
+                        Stop, I got it
+                        I'm, I'm, I'm
+                        I'm, I'm
+                        I'm an Albatraoz
+                        This is Albatraoz, jeah
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop7()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>7.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/twentyonepilots.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Stressed Out</p>
+                                <p>Twenty One Pilots</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic7" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica7">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> I wish I found some better sounds no one's ever heard
+                        I wish I had a better voice that sang some better words
+                        I wish I found some chords in an order that is new
+                        I wish I didn't have to rhyme every time I sang
+                        I was told when I get older, all my fears would shrink
+                        But now I'm insecure, and I care what people think
+                        My name's Blurryface and I care what you think
+                        My name's Blurryface and I care what you think
+                        Wish we could turn back time
+                        To the good old days
+                        When our mama sang us to sleep
+                        But now we're stressed out (oh)
+                        Wish we could turn back time (oh)
+                        To the good old days (oh)
+                        When our mama sang us to sleep
+                        But now we're stressed out
+                        We're stressed out
+                        Sometimes a certain smell will take me back to when I was young
+                        How come I'm never able to identify where it's coming from?
+                        I'd make a candle out of it if I ever found it
+                        Try to sell it, never sell out of it, I'd probably only sell one
+                        It'd be to my brother, 'cause we have the same nose
+                        Same clothes, homegrown, a stone's throw from a creek we used to roam
+                        But it would remind us of when nothing really mattered
+                        Out of student loans and tree house homes, we all would take the latter
+                        My name's Blurryface and I care what you think
+                        My name's Blurryface and I care what you think
+                        Wish we could turn back time
+                        To the good old days
+                        When our mama sang us to sleep
+                        But now we're stressed out (oh)
+                        Wish we could turn back time (oh)
+                        To the good old days (oh)
+                        When our mama sang us to sleep
+                        But now we're stressed out
+                        Used to play pretend, give each other different names
+                        We would build a rocket ship and then we'd fly it far away
+                        Used to dream of outer space, but now they're laughing at our face saying
+                        "Wake up, you need to make money", yeah
+                        We used to play pretend, give each other different names
+                        We would build a rocket ship and then we'd fly it far away
+                        Used to dream of outer space, but now they're laughing at our face saying
+                        "Wake up, you need to make money", yeah
+                        Wish we could turn back time
+                        To the good old days
+                        When our mama sang us to sleep
+                        But now we're stressed out (oh)
+                        Wish we could turn back time (oh)
+                        To the good old days (oh)
+                        When our mama sang us to sleep
+                        But now we're stressed out
+                        We used to play pretend, used to play pretend, money
+                        We used to play pretend, wake up, you need the money
+                        Used to play pretend, used to play pretend, money
+                        We used to play pretend, wake up, you need the money
+                        Used to play pretend, give each other different names
+                        We would build a rocket ship and then we'd fly it far away
+                        Used to dream of outer space, but now they're laughing at our face saying
+                        "Wake up, you need to make money", yeah
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop8()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>8.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/mulequedevila.png" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Muleque de vila</p>
+                                <p>Projota</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic8" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica8">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p>Eu falei que era uma questão de tempo
+                        E tudo ia mudar, e eu lutei
+                        Vários me disseram que eu nunca ia chegar, duvidei
+                        Lembra da ladeira, meu?
+                        Toda Sexta-feira meu melhor amigo é Deus e o segundo melhor sou eu
+                        Eu tanto quis, tanto fiz, tanto fui feliz
+                        Eu canto Xis, canto Péricles, canto Elis
+                        Torcedor do Santos, desse pão e circo eu também quis
+                        Não sei feliz, mas geral merece não ser infeliz
+                        Prosperei com o suor do meu trabalho
+                        Me guardei, lutei sem buscar atalho
+                        Ou sem pisar em ninguém
+                        Sem roubar também, então sei
+                        Que hoje o meu nome é Foda e meu sobrenome é Pra Caralho
+                        Deus olhou pra mim, disse assim, escuta neguin
+                        Pegue esse caderno e escreve em cada folha até o fim
+                        Eu disse Senhor, sou tão tímido, sinto mó pavor
+                        Só subir no palco a perna congelou
+                        Mas rodei o Brasil, CD na mochila foi cinquenta mil
+                        Mão em mão, na rodoviária passando mó frio
+                        Quem viu, viu, Curitiba meu tesouro, foi estouro
+                        Vinte e cinco mil, tio, DVD de ouro
+                        Triunfo bombou, Leandro estourou, Michel prosperou
+                        Dei valor, só trabalhador, homens de valor
+                        Minha cor não me atrapalhou, só me abençoou
+                        Quem falou que era moda, hoje felizmente se calou
+                        Vai, vai lá, não tenha medo do pior
+                        Eu sei que tudo vai mudar
+                        Você vai transformar o mundo ao seu redor
+                        Mas não vacila, moleque de vila, moleque de vila, moleque de vila
+                        Não vacila, moleque de vila, moleque de vila, moleque de vila
+                        Já fui vaiado, já fui humilhado, já fui atacado
+                        Fui xingado, ameaçado, nunca amedrontado
+                        Aplaudido, reverenciado, homenageado
+                        Premiado pelos homens, por Deus abençoado
+                        Avisa o Rony que hoje é nós, não tem show, 'to sem voz
+                        Se o Danilo não colar, vou buscar de Cross
+                        Se o Marques chegar, grita o Magrão, liga, mó função
+                        Tem churrasco, sem fiasco, tira espinha do salão
+                        Já cantei com o Mano Brown, com Edi Rock e com Helião
+                        Com D2, com MV, dei um abraço no Chorão
+                        Aprendi fazer freestyle no busão
+                        Hoje é o mesmo freestyle, só que a gente faz no fundo do avião
+                        E hoje eu acordei chorando porque eu me peguei pensando
+                        Será que lá de cima a minha véia segue me olhando?
+                        Será que se me olhando, ela ainda 'tá me escutando?
+                        Será que me escutando, ela ainda 'tá se orgulhando?
+                        Hoje tanto faz, putaria 'tá demais
+                        Mas ninguém se liga mais, mas ninguém respeita os pais
+                        Mas pra mim tanto faz porque ainda tem Racionais
+                        Pra quem quer, diferente tem, Oriente e Haikass
+                        Raps nacionais, rostos diferentes, mesmos ideais
+                        Salve, Sabota, e todo Rap sem lorota
+                        Os mano gosta de ir no Twitter xingar o Projota
+                        Mas trai a mulher e não abraça a mãe, faz uma cota
+                        Desde os dezesseis 'to aqui, outra vez, vou sorrir
+                        Vou cantar, vou seguir
+                        Vou tentar, conseguir
+                        Se quer falar mal, fala daí
+                        Mas meu público grita tão alto que já nem consigo te ouvir
+                        Olha lá o outdoor com o meu nome
+                        Me emocionar não me faz ser menos homem
+                        Se o diabo amassa o pão, você morre ou você come?
+                        Eu não morri e nem comi, eu fiz amizade com a fome
+                        Vai, vai lá, não tenha medo do pior
+                        Eu sei que tudo vai mudar
+                        Você vai transformar o mundo ao seu redor
+                        Mas não vacila, moleque de vila, moleque de vila, moleque de vila
+                        Não vacila, moleque de vila, moleque de vila, moleque de vila
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop9()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>9.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/gratidao.png" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Gratidão</p>
+                                <p>L7nnon</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic9" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica9">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Tempo passa, lembrança fica
+                        Momentos que vão marcar nossa vida eternamente
+                        E é mais ou menos sobre isso, 'tá ligado não? É
+                        Lembro legal quando não tinha nada, quando nós não era nada
+                        Piscada, quantas madrugada virada?
+                        Roda de Botafogo, primeiro show na Lapa
+                        Tu me encontrou depois que chegou com o café em casa
+                        Não é ostentação, é superação
+                        Sim, somos irmão, é, inspiração
+                        Recito versos que vêm direto do coração
+                        Arruma a casa e depois pensa na decoração
+                        Nem tudo na vida é questão de cifrão
+                        Saudade fica se vidas se vão
+                        É o que complica minha situação
+                        'Cê 'tá vivendo mesmo ou isso é só atuação?
+                        Já dei valor a quem não merecia
+                        Com o tempo vi que eu nem me conhecia
+                        Já vi sofrer tanta pessoa que eu falo que amo
+                        Pior de tudo é saber que às vezes eu que fazia
+                        Pai, não 'tô na área que o senhor queria
+                        Mãe, lembra que eu disse que conseguiria?
+                        Minha vitória não é saber que eu tenho grana
+                        E sim reconhecer que sem Deus não aconteceria
+                        Se precisasse, eu
+                        Faria tudo de novo
+                        Faria tudo de novo
+                        Eu faria tudo de novo
+                        Mas se precisasse, eu
+                        Faria tudo de novo
+                        Faria tudo de novo
+                        Faria tudo de novo
+                        Gratidão, integridade, honestidade, papo reto e só visão
+                        Eu sei que toda glória vai ser dada a Deus
+                        Mas não posso esquecer daquele que me deu a mão
+                        Daqueles, porque foi mais de um
+                        Sem eles, lugar nenhum
+                        E se tu não concorda, é porque a minha vivência é outra
+                        Essa é minha vida, é louca e fora do comum, é
+                        Tem quem não acredite que nós veio do nada
+                        Tem quem não acredite que hoje eu tenho tudo
+                        E o tudo que eu tenho não é questão financeira
+                        É que eu me sinto a pessoa mais feliz desse mundo
+                        Sorriso da minha família vale mais que ouro
+                        Eu sei quê que a falta de grana faz dentro de casa
+                        Lembro de cada momento no qual me dedicava
+                        Vi que o dinheiro não era tudo que eu mais precisava
+                        Se precisasse, eu
+                        Faria tudo de novo
+                        Eu faria tudo de novo
+                        Faria tudo de novo
+                        Mas se precisasse, eu
+                        Faria tudo de novo
+                        Faria tudo de novo
+                        Eu faria tudo de novo
+                    </p>
+                </div>
+
+                <div class="music">
+                    <a class="list" onclick="musictop10()">
+                        <div class="ordem">
+                            <span>
+                                <p><strong>10.</strong></p>
+                            </span>
+                        </div>
+                        <div class="capa-music">
+                            <img src="img/velhainfancia.jpg" alt="Capa de música">
+                        </div>
+                        <div class="descricao-music">
+                            <span>
+                                <p>Velha Infância</p>
+                                <p>Tribalistas</p>
+                            </span>
+                        </div>
+                    </a>
+                    <div class="favorito-music">
+                        <span>
+                            <img src="img/coracao.png" alt="">
+                        </span>
+                    </div>
+                    <div class="letra-music">
+                        <span>
+                            <img src="img/icons8-microfone-2-30.png" class="mic10" title="letra">
+                        </span>
+                    </div>
+                </div>
+                <div class="letraMusica10">
+                    <p class="lt"><strong>Letra</strong></p>
+                    <p> Você é assim
+                        Um sonho pra mim
+                        E quando eu não te vejo
+                        Eu penso em você
+                        Desde o amanhecer
+                        Até quando eu me deito
+                        Eu gosto de você
+                        E gosto de ficar com você
+                        Meu riso é tão feliz contigo
+                        O meu melhor amigo é o meu amor
+                        E a gente canta
+                        E a gente dança
+                        E a gente não se cansa
+                        De ser criança
+                        A gente brinca
+                        Na nossa velha infância
+                        Seus olhos, meu clarão
+                        Me guiam dentro da escuridão
+                        Seus pés me abrem o caminho
+                        Eu sigo e nunca me sinto só
+                        Você é assim
+                        Um sonho pra mim
+                        Quero te encher de beijos
+                        Eu penso em você
+                        Desde o amanhecer
+                        Até quando eu me deito
+                        Eu gosto de você
+                        E gosto de ficar com você
+                        Meu riso é tão feliz contigo
+                        O meu melhor amigo é o meu amor
+                        E a gente canta
+                        A gente dança
+                        A gente não se cansa
+                        De ser criança
+                        A gente brinca
+                        Na nossa velha infância
+                        Seus olhos, meu clarão
+                        Me guiam dentro da escuridão
+                        Seus pés me abrem o caminho
+                        Eu sigo e nunca me sinto só
+                        Você é assim
+                        Um sonho pra mim
+                        Você é assim
+                        Você é assim
+                        Um sonho pra mim
+                        Você é assim
+                        Você é assim
+                        Um sonho pra mim
+                        Você é assim
+                        Você é assim
+                        Um sonho pra mim
+                        E quando eu não te vejo
+                        Penso em você
+                        Desde o amanhecer
+                        Até quando eu me deito
+                        Eu gosto de você
+                        E gosto de ficar com você
+                        Meu riso é tão feliz contigo
+                        O meu melhor amigo é o meu amor
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/playlist.js"></script>
+
+    <footer>
+        <p>Criado por Fabiola Costa &copy; 2022</p>
+    </footer>
+</body>
+</html>

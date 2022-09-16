@@ -1,0 +1,48 @@
+body {
+    background-image: url('../img/capa.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;    
+}
+
+/*Botão*/
+
+.btn{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn a input{
+    width: 150px;
+    padding: 12px;
+    background-color: #FFF;
+    border-radius: 50px;
+    font-size: 20px; 
+    border: none;
+    top:50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -100px;
+    position: absolute;
+}
+
+.btn a input:hover{
+    cursor: pointer;
+    box-shadow: inset 0 0 1em rgb(109, 207, 237), 0 0 1em rgb(130, 206, 238);    
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #FFF;
+    height: 30px;
+    text-align: center;
+    padding: 6px;
+    background: rgb(61,125,142);
+    background: radial-gradient(circle, rgba(61,125,142,1) 3%, rgba(65,65,65,1) 94%);
+    margin-top: 10px;
+}
